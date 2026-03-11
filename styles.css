@@ -120,8 +120,10 @@ img { display: block; max-width: 100%; }
 .navbar__logo-img {
   height: 44px;
   width: auto;
-  transition: opacity var(--transition);
+  transition: color var(--transition), opacity var(--transition);
+  color: rgba(255,255,255,0.95);
 }
+.navbar.scrolled .navbar__logo-img { color: var(--blue); }
 
 /* Fallback text shown when logo.png doesn't exist */
 .navbar__logo-fallback {
@@ -1060,6 +1062,42 @@ img { display: block; max-width: 100%; }
   font-weight: 600;
 }
 
+/* ---------- Clients group visual ---------- */
+.clients-group__inner {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.clients-group__visual {
+  border-radius: var(--radius);
+  height: 100%;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 28px 20px;
+  color: white;
+  text-align: center;
+}
+.clients-group__visual--blue   { background: linear-gradient(135deg, #0d5ca3 0%, #1A73C8 100%); }
+.clients-group__visual--teal   { background: linear-gradient(135deg, #0a7066 0%, #0fa08a 100%); }
+.clients-group__visual--purple { background: linear-gradient(135deg, #5b4cbf 0%, #7B5CE7 100%); }
+.clients-group__visual--green  { background: linear-gradient(135deg, #0f7a3e 0%, #25a55a 100%); }
+.clients-group__visual svg { opacity: 0.9; }
+.clients-group__visual-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.clients-group__visual-count {
+  font-size: .82rem;
+  opacity: 0.8;
+  margin-top: -8px;
+}
+
 /* ---------- Partner card logo ---------- */
 .partner-card__logo-wrap {
   height: 56px;
@@ -1068,14 +1106,15 @@ img { display: block; max-width: 100%; }
   margin-bottom: 14px;
 }
 .partner-card__logo {
-  max-height: 46px;
-  max-width: 140px;
-  width: auto;
+  height: 44px;
+  width: 44px;
   object-fit: contain;
-  filter: grayscale(30%) opacity(0.85);
-  transition: filter var(--transition);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  filter: grayscale(20%) opacity(0.88);
+  transition: filter var(--transition), transform var(--transition);
 }
-.partner-card:hover .partner-card__logo { filter: none; }
+.partner-card:hover .partner-card__logo { filter: none; transform: scale(1.08); }
 
 /* ---------- Product card with image ---------- */
 .product-card { overflow: hidden; }
@@ -1137,6 +1176,8 @@ img { display: block; max-width: 100%; }
   .hero__photo { display: none; }
   .about-photos { grid-template-columns: 1fr; }
   .map-wrap { height: 280px; }
+  .clients-group__inner { grid-template-columns: 1fr; }
+  .clients-group__visual { min-height: 120px; }
 
   .navbar__links    { display: none; }
   .navbar__hamburger{ display: flex; }

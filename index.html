@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -27,8 +27,35 @@
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
       <a href="#hero" class="navbar__logo">
-        <img src="assets/logo.svg" alt="Megatons Saúde" class="navbar__logo-img" />
-        <span class="navbar__logo-fallback">megatons <span>saúde</span></span>
+        <svg class="navbar__logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 190" role="img" aria-label="Megatons Saúde">
+          <defs>
+            <linearGradient id="nv-rg" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="0%"   stop-color="#4ACC80"/>
+              <stop offset="22%"  stop-color="#38C4A0"/>
+              <stop offset="58%"  stop-color="#4888CC"/>
+              <stop offset="100%" stop-color="#5A58CC"/>
+            </linearGradient>
+            <linearGradient id="nv-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#7080DC"/><stop offset="100%" stop-color="#5050C8"/>
+            </linearGradient>
+            <linearGradient id="nv-bs" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4858D0"/><stop offset="100%" stop-color="#3838B4"/>
+            </linearGradient>
+            <mask id="nv-rm">
+              <circle cx="57" cy="92" r="35" fill="white"/>
+              <circle cx="92" cy="57" r="35" fill="white"/>
+              <circle cx="127" cy="92" r="35" fill="white"/>
+              <circle cx="92" cy="127" r="35" fill="white"/>
+              <circle cx="92" cy="92" r="27" fill="black"/>
+            </mask>
+          </defs>
+          <rect x="0" y="0" width="184" height="184" fill="url(#nv-rg)" mask="url(#nv-rm)"/>
+          <circle cx="20" cy="92" r="20" fill="#5CC462"/>
+          <circle cx="92" cy="20" r="18" fill="url(#nv-ts)"/>
+          <circle cx="92" cy="164" r="22" fill="url(#nv-bs)"/>
+          <text x="183" y="118" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="78" font-weight="900" fill="currentColor" letter-spacing="-1">megatons</text>
+          <text x="558" y="160" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="41" font-weight="700" fill="currentColor" text-anchor="end" opacity="0.85">saúde</text>
+        </svg>
       </a>
 
       <nav class="navbar__links" id="navLinks">
@@ -61,7 +88,35 @@
     <div class="container">
       <div class="hero__split">
         <div class="hero__text">
-          <img src="assets/logo.svg" alt="Megatons Saúde" class="hero__logo" />
+          <svg class="hero__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 190" role="img" aria-label="Megatons Saúde">
+            <defs>
+              <linearGradient id="hr-rg" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%"   stop-color="#4ACC80"/>
+                <stop offset="22%"  stop-color="#38C4A0"/>
+                <stop offset="58%"  stop-color="#4888CC"/>
+                <stop offset="100%" stop-color="#5A58CC"/>
+              </linearGradient>
+              <linearGradient id="hr-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7080DC"/><stop offset="100%" stop-color="#5050C8"/>
+              </linearGradient>
+              <linearGradient id="hr-bs" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4858D0"/><stop offset="100%" stop-color="#3838B4"/>
+              </linearGradient>
+              <mask id="hr-rm">
+                <circle cx="57" cy="92" r="35" fill="white"/>
+                <circle cx="92" cy="57" r="35" fill="white"/>
+                <circle cx="127" cy="92" r="35" fill="white"/>
+                <circle cx="92" cy="127" r="35" fill="white"/>
+                <circle cx="92" cy="92" r="27" fill="black"/>
+              </mask>
+            </defs>
+            <rect x="0" y="0" width="184" height="184" fill="url(#hr-rg)" mask="url(#hr-rm)"/>
+            <circle cx="20" cy="92" r="20" fill="#5CC462"/>
+            <circle cx="92" cy="20" r="18" fill="url(#hr-ts)"/>
+            <circle cx="92" cy="164" r="22" fill="url(#hr-bs)"/>
+            <text x="183" y="118" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="78" font-weight="900" fill="white" letter-spacing="-1">megatons</text>
+            <text x="558" y="160" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="41" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="end">saúde</text>
+          </svg>
           <h1 class="hero__title">Saúde com Qualidade<br />e Confiança</h1>
           <p class="hero__subtitle">
             Distribuição de produtos para a saúde com excelência, agilidade e compromisso com o bem-estar da população.
@@ -76,8 +131,8 @@
         </div>
         <div class="hero__photo">
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=700&h=460&q=80"
-            alt="Profissional de saúde com produtos médicos"
+            src="https://images.unsplash.com/photo-1584820927498-cad076eee68c?auto=format&fit=crop&w=700&h=460&q=80"
+            alt="Profissional de saúde"
             loading="eager"
           />
         </div>
@@ -250,7 +305,7 @@
 
         <a href="https://prodietnutrition.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/prodietnutrition.com" alt="Prodiet Nutrition" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://prodietnutrition.com&size=256" alt="Prodiet Nutrition" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Nutrição Clínica</span>
           <h3 class="partner-card__name">Prodiet Nutrition</h3>
@@ -260,7 +315,7 @@
 
         <a href="https://biotecnica.ind.br/produtos/linha-humana/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/biotecnica.ind.br" alt="Biotecnica" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://biotecnica.ind.br&size=256" alt="Biotecnica" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Diagnóstico Laboratorial</span>
           <h3 class="partner-card__name">Biotecnica</h3>
@@ -270,7 +325,7 @@
 
         <a href="https://cremer.net.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/cremer.net.br" alt="Cremer" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cremer.net.br&size=256" alt="Cremer" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Materiais Cirúrgicos</span>
           <h3 class="partner-card__name">Cremer</h3>
@@ -280,7 +335,7 @@
 
         <a href="https://www.cralplast.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/cralplast.com.br" alt="Cralplast" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cralplast.com.br&size=256" alt="Cralplast" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Descartáveis</span>
           <h3 class="partner-card__name">Cralplast</h3>
@@ -290,7 +345,7 @@
 
         <a href="https://ebram.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/ebram.com" alt="Ebram" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ebram.com&size=256" alt="Ebram" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Hospitalar</span>
           <h3 class="partner-card__name">Ebram</h3>
@@ -300,7 +355,7 @@
 
         <a href="https://loja.descarpack.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/descarpack.com.br" alt="Descarpack" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://descarpack.com.br&size=256" alt="Descarpack" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Segurança</span>
           <h3 class="partner-card__name">Descarpack</h3>
@@ -310,7 +365,7 @@
 
         <a href="https://audaxco.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/audaxco.com" alt="Audax" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://audaxco.com&size=256" alt="Audax" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Equipamentos</span>
           <h3 class="partner-card__name">Audax</h3>
@@ -320,7 +375,7 @@
 
         <a href="https://www.vuelopharma.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/vuelopharma.com" alt="Vuelopharma" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://vuelopharma.com&size=256" alt="Vuelopharma" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Farmacêutico</span>
           <h3 class="partner-card__name">Vuelopharma</h3>
@@ -330,7 +385,7 @@
 
         <a href="https://bycorpus.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
           <div class="partner-card__logo-wrap">
-            <img src="https://logo.clearbit.com/bycorpus.com.br" alt="Bycorpus" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            <img src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://bycorpus.com.br&size=256" alt="Bycorpus" class="partner-card__logo" loading="lazy" onerror="this.parentElement.style.display='none'" />
           </div>
           <span class="partner-card__tag">Saúde & Bem-estar</span>
           <h3 class="partner-card__name">Bycorpus</h3>
@@ -489,22 +544,29 @@
             Hospitais Públicos
           </span>
         </div>
-        <div class="clients-grid">
-          <div class="client-card client-card--blue">HPS Delphina Rinaldi Abdel Aziz</div>
-          <div class="client-card client-card--blue">HPS 28 de Agosto</div>
-          <div class="client-card client-card--blue">Instituto da Mulher Dona Lindu</div>
-          <div class="client-card client-card--blue">HPS Dr. João Lúcio Pereira Machado</div>
-          <div class="client-card client-card--blue">Maternidade Ana Braga</div>
-          <div class="client-card client-card--blue">Fundação Hospital Adriano Jorge (FHAJ)</div>
-          <div class="client-card client-card--blue">Fundação de Medicina Tropical (FMT-HVD)</div>
-          <div class="client-card client-card--blue">Fundação Centro de Controle de Oncologia (FCecon)</div>
-          <div class="client-card client-card--blue">Fund. Hospital do Coração Francisca Mendes</div>
-          <div class="client-card client-card--blue">Hospital Infantil Dr. Fajardo</div>
-          <div class="client-card client-card--blue">HPS da Criança Zona Leste</div>
-          <div class="client-card client-card--blue">HPS da Criança Zona Oeste</div>
-          <div class="client-card client-card--blue">Instituto de Saúde da Criança do Amazonas (ICAM)</div>
-          <div class="client-card client-card--blue">HEMOAM</div>
-          <div class="client-card client-card--blue">HUGV – Hospital Universitário Getúlio Vargas</div>
+        <div class="clients-group__inner">
+          <div class="clients-group__visual clients-group__visual--blue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline><line x1="12" y1="9" x2="12" y2="9.01" stroke-width="3"/><line x1="9" y1="9" x2="15" y2="9"/></svg>
+            <span class="clients-group__visual-title">Hospitais Públicos<br />do Amazonas</span>
+            <span class="clients-group__visual-count">15 unidades atendidas</span>
+          </div>
+          <div class="clients-grid">
+            <div class="client-card client-card--blue">HPS Delphina Rinaldi Abdel Aziz</div>
+            <div class="client-card client-card--blue">HPS 28 de Agosto</div>
+            <div class="client-card client-card--blue">Instituto da Mulher Dona Lindu</div>
+            <div class="client-card client-card--blue">HPS Dr. João Lúcio Pereira Machado</div>
+            <div class="client-card client-card--blue">Maternidade Ana Braga</div>
+            <div class="client-card client-card--blue">Fundação Hospital Adriano Jorge (FHAJ)</div>
+            <div class="client-card client-card--blue">Fundação de Medicina Tropical (FMT-HVD)</div>
+            <div class="client-card client-card--blue">Fundação Centro de Controle de Oncologia (FCecon)</div>
+            <div class="client-card client-card--blue">Fund. Hospital do Coração Francisca Mendes</div>
+            <div class="client-card client-card--blue">Hospital Infantil Dr. Fajardo</div>
+            <div class="client-card client-card--blue">HPS da Criança Zona Leste</div>
+            <div class="client-card client-card--blue">HPS da Criança Zona Oeste</div>
+            <div class="client-card client-card--blue">Instituto de Saúde da Criança do Amazonas (ICAM)</div>
+            <div class="client-card client-card--blue">HEMOAM</div>
+            <div class="client-card client-card--blue">HUGV – Hospital Universitário Getúlio Vargas</div>
+          </div>
         </div>
       </div>
 
@@ -516,8 +578,15 @@
             Central de Abastecimento
           </span>
         </div>
-        <div class="clients-grid">
-          <div class="client-card client-card--teal">CEMA – Central de Medicamentos do Amazonas</div>
+        <div class="clients-group__inner">
+          <div class="clients-group__visual clients-group__visual--teal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            <span class="clients-group__visual-title">Central de<br />Abastecimento</span>
+            <span class="clients-group__visual-count">Farmácia central do Estado</span>
+          </div>
+          <div class="clients-grid">
+            <div class="client-card client-card--teal">CEMA – Central de Medicamentos do Amazonas</div>
+          </div>
         </div>
       </div>
 
@@ -529,11 +598,18 @@
             Hospitais Privados
           </span>
         </div>
-        <div class="clients-grid">
-          <div class="client-card client-card--purple">Hospital Santa Júlia</div>
-          <div class="client-card client-card--purple">Hospital Nilton Lins</div>
-          <div class="client-card client-card--purple">Hospital Beneficente Português do Amazonas (HPAM)</div>
-          <div class="client-card client-card--purple">Hospital Adventista de Manaus</div>
+        <div class="clients-group__inner">
+          <div class="clients-group__visual clients-group__visual--purple">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <span class="clients-group__visual-title">Hospitais Privados<br />de Manaus</span>
+            <span class="clients-group__visual-count">4 unidades atendidas</span>
+          </div>
+          <div class="clients-grid">
+            <div class="client-card client-card--purple">Hospital Santa Júlia</div>
+            <div class="client-card client-card--purple">Hospital Nilton Lins</div>
+            <div class="client-card client-card--purple">Hospital Beneficente Português do Amazonas (HPAM)</div>
+            <div class="client-card client-card--purple">Hospital Adventista de Manaus</div>
+          </div>
         </div>
       </div>
 
@@ -545,12 +621,19 @@
             Laboratórios
           </span>
         </div>
-        <div class="clients-grid">
-          <div class="client-card client-card--green">Clinilab Manaus</div>
-          <div class="client-card client-card--green">RB Diagnósticos</div>
-          <div class="client-card client-card--green">Lab-Clínica</div>
-          <div class="client-card client-card--green">IAC – Instituto de Análises Clínicas</div>
-          <div class="client-card client-card--green">LACEN-AM</div>
+        <div class="clients-group__inner">
+          <div class="clients-group__visual clients-group__visual--green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"></path></svg>
+            <span class="clients-group__visual-title">Laboratórios<br />de Análises</span>
+            <span class="clients-group__visual-count">5 laboratórios atendidos</span>
+          </div>
+          <div class="clients-grid">
+            <div class="client-card client-card--green">Clinilab Manaus</div>
+            <div class="client-card client-card--green">RB Diagnósticos</div>
+            <div class="client-card client-card--green">Lab-Clínica</div>
+            <div class="client-card client-card--green">IAC – Instituto de Análises Clínicas</div>
+            <div class="client-card client-card--green">LACEN-AM</div>
+          </div>
         </div>
       </div>
 
