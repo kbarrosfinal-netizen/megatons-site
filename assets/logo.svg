@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <defs>
+    <linearGradient id="gTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3DD6C0"/>
+      <stop offset="100%" stop-color="#1A9ED6"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A73C8"/>
+      <stop offset="100%" stop-color="#1259a0"/>
+    </linearGradient>
+    <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B5CE7"/>
+      <stop offset="100%" stop-color="#5A3DC8"/>
+    </linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3DD6C0"/>
+      <stop offset="100%" stop-color="#2BB8A0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Symbol: 4 overlapping rounded shapes -->
+  <!-- Top-left (teal) -->
+  <ellipse cx="24" cy="22" rx="14" ry="13" fill="url(#gTeal)" opacity="0.92"/>
+  <!-- Top-right (blue) -->
+  <ellipse cx="40" cy="22" rx="14" ry="13" fill="url(#gBlue)" opacity="0.92"/>
+  <!-- Bottom-left (blue-teal) -->
+  <ellipse cx="24" cy="38" rx="14" ry="13" fill="url(#gBlue)" opacity="0.92"/>
+  <!-- Bottom-right (purple) -->
+  <ellipse cx="40" cy="38" rx="14" ry="13" fill="url(#gPurple)" opacity="0.92"/>
+
+  <!-- Center white blend -->
+  <ellipse cx="32" cy="30" rx="9" ry="9" fill="white" opacity="0.18"/>
+
+  <!-- Outer accent circles -->
+  <circle cx="32" cy="5"  r="4.5" fill="url(#gTeal)"/>
+  <circle cx="57" cy="30" r="4.5" fill="url(#gPurple)"/>
+  <circle cx="32" cy="55" r="4.5" fill="url(#gBlue)"/>
+  <circle cx="7"  cy="30" r="4.5" fill="url(#gGreen)"/>
+
+  <!-- Text: megatons -->
+  <text
+    x="70" y="33"
+    font-family="Inter, -apple-system, Arial, sans-serif"
+    font-size="24"
+    font-weight="800"
+    fill="#1259a0"
+    letter-spacing="-0.8"
+  >megatons</text>
+
+  <!-- Text: saúde -->
+  <text
+    x="71" y="50"
+    font-family="Inter, -apple-system, Arial, sans-serif"
+    font-size="13"
+    font-weight="500"
+    fill="#1A73C8"
+    letter-spacing="3.5"
+  >saúde</text>
+</svg>

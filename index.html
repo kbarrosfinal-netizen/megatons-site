@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Megatons Saúde - Referência em distribuição de produtos para a saúde em Manaus/AM. Qualidade, segurança e agilidade." />
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://megatonssaude.com.br/" />
+  <meta property="og:title" content="Megatons Saúde | Distribuição de Produtos para Saúde" />
+  <meta property="og:description" content="Referência em distribuição de produtos para a saúde em Manaus/AM. Qualidade, segurança e agilidade. Fale conosco no WhatsApp!" />
+  <meta property="og:image" content="https://megatonssaude.com.br/assets/logo.svg" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Megatons Saúde" />
+  <meta name="twitter:description" content="Distribuição de produtos para a saúde com excelência e agilidade." />
+  <title>Megatons Saúde | Distribuição de Produtos para Saúde</title>
+  <link rel="icon" type="image/png" href="assets/logo.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <img src="assets/logo.svg" alt="Megatons Saúde" class="navbar__logo-img" />
+        <span class="navbar__logo-fallback">megatons <span>saúde</span></span>
+      </a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#sobre">Sobre</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#parceiros">Parceiros</a>
+        <a href="#redes">Redes Sociais</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/559282310021?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+produtos+da+Megatons+Sa%C3%BAde." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp navbar__cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Fale Conosco
+        </a>
+      </nav>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-circles" aria-hidden="true">
+      <div class="circle circle--1"></div>
+      <div class="circle circle--2"></div>
+      <div class="circle circle--3"></div>
+    </div>
+    <div class="container hero__content">
+      <img src="assets/logo.svg" alt="Megatons Saúde" class="hero__logo" />
+      <h1 class="hero__title">Saúde com Qualidade<br />e Confiança</h1>
+      <p class="hero__subtitle">
+        Distribuição de produtos para a saúde com excelência, agilidade e compromisso com o bem-estar da população.
+      </p>
+      <div class="hero__actions">
+        <a href="https://wa.me/559282310021?text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Solicitar Orçamento
+        </a>
+        <a href="#sobre" class="btn btn--outline btn--lg">Conheça a Megatons</a>
+      </div>
+    </div>
+    <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </a>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section section--white" id="sobre">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Sobre a Megatons Saúde</h2>
+        <div class="section__divider"></div>
+        <p class="section__subtitle">Comprometidos com a saúde da população amazonense e nacional</p>
+      </div>
+
+      <!-- Visão + Missão -->
+      <div class="cards-2col">
+        <div class="card card--blue">
+          <div class="card__icon-wrap card__icon-wrap--blue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          </div>
+          <h3 class="card__label">Visão</h3>
+          <p>Ser a referência nacional em distribuição de produtos para a saúde, reconhecida pela qualidade, segurança e agilidade em nossos serviços.</p>
+        </div>
+
+        <div class="card card--teal">
+          <div class="card__icon-wrap card__icon-wrap--teal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          </div>
+          <h3 class="card__label">Missão</h3>
+          <p>Oferecer soluções de distribuição de produtos para a saúde com excelência, priorizando a qualidade, segurança e agilidade, e garantindo que cada cliente tenha acesso a produtos que promovam o bem-estar e a saúde da população.</p>
+        </div>
+      </div>
+
+      <!-- Valores -->
+      <div class="section__sub-header">
+        <h3>Nossos Valores</h3>
+        <p>Os princípios que guiam cada passo da Megatons</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-card__num">01</div>
+          <h4>Melhoria Contínua</h4>
+          <p>Evolução constante em processos e entregas</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">02</div>
+          <h4>Excelência</h4>
+          <p>Padrão elevado em todos os serviços prestados</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">03</div>
+          <h4>Transparência</h4>
+          <p>Gestão clara e honesta com clientes e parceiros</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">04</div>
+          <h4>Agilidade</h4>
+          <p>Respostas rápidas e entregas no prazo</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">05</div>
+          <h4>Trabalho em Equipe</h4>
+          <p>Colaboração como base do nosso sucesso</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">06</div>
+          <h4>Foco no Cliente</h4>
+          <p>Cada decisão orientada à satisfação do cliente</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">07</div>
+          <h4>Networking</h4>
+          <p>Parcerias estratégicas que geram valor</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__num">08</div>
+          <h4>Sustentabilidade</h4>
+          <p>Comprometimento com o futuro e o meio ambiente</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POR QUE MEGATONS ===== -->
+  <section class="section section--dark-blue" id="diferenciais">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <h2 class="section__title">Por que escolher a Megatons?</h2>
+        <div class="section__divider"></div>
+        <p class="section__subtitle section__subtitle--light">Atendemos hospitais, clínicas, laboratórios e órgãos públicos com o que há de melhor no mercado.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </div>
+          <h3>Produtos Certificados</h3>
+          <p>Trabalhamos apenas com fabricantes registrados na ANVISA e certificados pelos órgãos competentes.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <h3>Entrega Ágil</h3>
+          <p>Logística eficiente para garantir que os produtos cheguem no tempo certo, onde você precisar.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3>Atendimento Personalizado</h3>
+          <p>Nossa equipe especializada entende as necessidades específicas de cada instituição de saúde.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3>Melhores Condições</h3>
+          <p>Preços competitivos e condições especiais para compras em volume e licitações públicas.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <h3>Documentação Completa</h3>
+          <p>Suporte a licitações e processos de compra governamental com toda a documentação necessária.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3>Suporte 24/7</h3>
+          <p>Canal de atendimento via WhatsApp para urgências e pedidos em qualquer horário.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARCEIROS ===== -->
+  <section class="section section--gray" id="parceiros">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Nossos Parceiros</h2>
+        <div class="section__divider"></div>
+        <p class="section__subtitle">Trabalhamos com as melhores marcas do mercado de saúde para garantir produtos de qualidade.</p>
+      </div>
+
+      <div class="partners-grid">
+
+        <a href="https://prodietnutrition.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Nutrição Clínica</span>
+          <h3 class="partner-card__name">Prodiet Nutrition</h3>
+          <p class="partner-card__desc">Soluções de nutrição enteral e parenteral para pacientes em cuidado clínico</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://biotecnica.ind.br/produtos/linha-humana/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Diagnóstico Laboratorial</span>
+          <h3 class="partner-card__name">Biotecnica</h3>
+          <p class="partner-card__desc">Reagentes e kits para diagnóstico clínico — linha humana</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://cremer.net.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Materiais Cirúrgicos</span>
+          <h3 class="partner-card__name">Cremer</h3>
+          <p class="partner-card__desc">Curativos, gazes, compressas e materiais para tratamento de feridas</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://www.cralplast.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Descartáveis</span>
+          <h3 class="partner-card__name">Cralplast</h3>
+          <p class="partner-card__desc">Produtos plásticos descartáveis para uso médico-hospitalar</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://ebram.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Hospitalar</span>
+          <h3 class="partner-card__name">Ebram</h3>
+          <p class="partner-card__desc">Produtos e equipamentos médico-hospitalares de alta qualidade</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://loja.descarpack.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Segurança</span>
+          <h3 class="partner-card__name">Descarpack</h3>
+          <p class="partner-card__desc">Caixas coletoras e soluções de descarte seguro de materiais perfurocortantes</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://audaxco.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Equipamentos</span>
+          <h3 class="partner-card__name">Audax</h3>
+          <p class="partner-card__desc">Equipamentos e acessórios para a área da saúde</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://www.vuelopharma.com/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Farmacêutico</span>
+          <h3 class="partner-card__name">Vuelopharma</h3>
+          <p class="partner-card__desc">Soluções farmacêuticas com foco em qualidade e inovação</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+        <a href="https://bycorpus.com.br/" target="_blank" rel="noopener noreferrer" class="partner-card">
+          <span class="partner-card__tag">Saúde & Bem-estar</span>
+          <h3 class="partner-card__name">Bycorpus</h3>
+          <p class="partner-card__desc">Produtos inovadores para saúde, bem-estar e qualidade de vida</p>
+          <span class="partner-card__link">Ver site &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REDES SOCIAIS ===== -->
+  <section class="section section--gray" id="redes">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Siga nas Redes Sociais</h2>
+        <div class="section__divider"></div>
+        <p class="section__subtitle">Acompanhe novidades, promoções e lançamentos de produtos diretamente nas nossas redes.</p>
+      </div>
+
+      <!-- Instagram feed widget (Elfsight — configurar ID após cadastro em elfsight.com) -->
+      <!-- INSTRUÇÕES: Acesse https://elfsight.com/instagram-feed-widget/
+           Crie uma conta gratuita, adicione seu perfil @megatonssaude e substitua
+           "SEU_WIDGET_ID" pelo ID fornecido. -->
+      <div id="instagramFeedWidget" class="instagram-widget-wrapper">
+        <!-- Cole aqui o código do widget Elfsight após configuração:
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-SEU_WIDGET_ID" data-elfsight-app-lazy></div>
+        -->
+
+        <!-- PLACEHOLDER — remover quando o widget Elfsight estiver configurado -->
+        <div class="instagram-placeholder">
+          <div class="instagram-placeholder__inner">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#e1306c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <h3>@megatonssaude</h3>
+            <p>Siga no Instagram e acompanhe os nossos produtos, novidades e promoções em tempo real.</p>
+            <a href="https://www.instagram.com/megatonssaude" target="_blank" rel="noopener noreferrer" class="btn btn--instagram">
+              Seguir no Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links redes sociais -->
+      <div class="social-links-row">
+        <a href="https://www.instagram.com/megatonssaude" target="_blank" rel="noopener noreferrer" class="social-link-card social-link-card--instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          <span class="social-link-card__name">Instagram</span>
+          <span class="social-link-card__handle">@megatonssaude</span>
+        </a>
+        <a href="https://wa.me/559282310021" target="_blank" rel="noopener noreferrer" class="social-link-card social-link-card--whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span class="social-link-card__name">WhatsApp</span>
+          <span class="social-link-card__handle">(92) 8231-0021</span>
+        </a>
+        <a href="mailto:contato@megatonssaude.com.br" class="social-link-card social-link-card--email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span class="social-link-card__name">E-mail</span>
+          <span class="social-link-card__handle">contato@megatonssaude.com.br</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section section--white" id="contato">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Entre em Contato</h2>
+        <div class="section__divider"></div>
+        <p class="section__subtitle">Nossa equipe está pronta para atendê-lo</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="https://wa.me/559282310021?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+produtos+da+Megatons+Sa%C3%BAde." target="_blank" rel="noopener noreferrer" class="contact-item contact-item--green">
+            <div class="contact-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">WhatsApp</p>
+              <p class="contact-item__value">(92) 8231-0021</p>
+            </div>
+          </a>
+
+          <a href="mailto:contato@megatonssaude.com.br" class="contact-item contact-item--blue">
+            <div class="contact-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">E-mail</p>
+              <p class="contact-item__value">contato@megatonssaude.com.br</p>
+            </div>
+          </a>
+
+          <div class="contact-item contact-item--gray">
+            <div class="contact-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">Endereço</p>
+              <p class="contact-item__value">Av. Duque de Caxias, 998</p>
+              <p class="contact-item__sub">Manaus – AM | CNPJ: 03.743.294/0001-30</p>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/megatonssaude" target="_blank" rel="noopener noreferrer" class="contact-item contact-item--pink">
+            <div class="contact-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </div>
+            <div>
+              <p class="contact-item__label">Instagram</p>
+              <p class="contact-item__value">@megatonssaude</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" opacity="0.9" class="contact-cta__icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <h3>Solicite um Orçamento</h3>
+          <p>Nossa equipe está pronta para atendê-lo com agilidade e oferecer as melhores condições para sua instituição de saúde.</p>
+          <a href="https://wa.me/559282310021?text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn--white btn--lg">
+            Chamar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="Megatons Saúde" class="footer__logo" />
+        <span class="footer__logo-fallback">megatons saúde</span>
+        <p>CNPJ: 03.743.294/0001-30</p>
+        <p>Av. Duque de Caxias, 998 – Manaus/AM</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#hero">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#parceiros">Parceiros</a>
+        <a href="#redes">Redes Sociais</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="footer__social">
+        <a href="https://www.instagram.com/megatonssaude" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer__social-btn footer__social-btn--instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a href="https://wa.me/559282310021" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer__social-btn footer__social-btn--whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="mailto:contato@megatonssaude.com.br" aria-label="E-mail" class="footer__social-btn footer__social-btn--email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Megatons Saúde. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/559282310021?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+produtos+da+Megatons+Sa%C3%BAde." target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Fale conosco no WhatsApp" id="whatsappFloat">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">Fale conosco</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
