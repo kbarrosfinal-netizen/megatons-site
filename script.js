@@ -36,6 +36,8 @@ function buildMobileMenu() {
     { href: '#sobre',        label: 'Sobre' },
     { href: '#diferenciais', label: 'Diferenciais' },
     { href: '#parceiros',    label: 'Parceiros' },
+    { href: '#produtos',     label: 'Produtos' },
+    { href: '#clientes',     label: 'Clientes' },
     { href: '#redes',        label: 'Redes Sociais' },
     { href: '#contato',      label: 'Contato' },
   ];
