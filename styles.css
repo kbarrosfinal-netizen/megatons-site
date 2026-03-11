@@ -999,15 +999,6 @@ img { display: block; max-width: 100%; }
   position: relative;
   overflow: hidden;
 }
-.client-card::after {
-  content: '';
-  position: absolute;
-  bottom: -16px; right: -16px;
-  width: 64px; height: 64px;
-  border-radius: 50%;
-  opacity: 0.07;
-  background: currentColor;
-}
 .client-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 28px rgba(0,0,0,0.10);
