@@ -27,34 +27,40 @@
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
       <a href="#hero" class="navbar__logo">
-        <svg class="navbar__logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 190" role="img" aria-label="Megatons Saúde">
+        <svg class="navbar__logo-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 110" role="img" aria-label="Megatons Saúde">
           <defs>
-            <linearGradient id="nv-rg" x1="0%" y1="50%" x2="100%" y2="50%">
-              <stop offset="0%"   stop-color="#4ACC80"/>
-              <stop offset="22%"  stop-color="#38C4A0"/>
-              <stop offset="58%"  stop-color="#4888CC"/>
+            <linearGradient id="nv-grad" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="0%" stop-color="#4ACC80"/>
+              <stop offset="25%" stop-color="#38C4A0"/>
+              <stop offset="65%" stop-color="#4888CC"/>
               <stop offset="100%" stop-color="#5A58CC"/>
             </linearGradient>
-            <linearGradient id="nv-ts" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#7080DC"/><stop offset="100%" stop-color="#5050C8"/>
+            <linearGradient id="nv-green" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#5CC462"/>
+              <stop offset="100%" stop-color="#4AB855"/>
             </linearGradient>
-            <linearGradient id="nv-bs" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#4858D0"/><stop offset="100%" stop-color="#3838B4"/>
+            <linearGradient id="nv-top" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#7080DC"/>
+              <stop offset="100%" stop-color="#5050C8"/>
             </linearGradient>
-            <mask id="nv-rm">
-              <circle cx="57" cy="92" r="35" fill="white"/>
-              <circle cx="92" cy="57" r="35" fill="white"/>
-              <circle cx="127" cy="92" r="35" fill="white"/>
-              <circle cx="92" cy="127" r="35" fill="white"/>
-              <circle cx="92" cy="92" r="27" fill="black"/>
-            </mask>
+            <linearGradient id="nv-bot" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4858D0"/>
+              <stop offset="100%" stop-color="#3838B4"/>
+            </linearGradient>
           </defs>
-          <rect x="0" y="0" width="184" height="184" fill="url(#nv-rg)" mask="url(#nv-rm)"/>
-          <circle cx="20" cy="92" r="20" fill="#5CC462"/>
-          <circle cx="92" cy="20" r="18" fill="url(#nv-ts)"/>
-          <circle cx="92" cy="164" r="22" fill="url(#nv-bs)"/>
-          <text x="183" y="118" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="78" font-weight="900" fill="currentColor" letter-spacing="-1">megatons</text>
-          <text x="558" y="160" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="41" font-weight="700" fill="currentColor" text-anchor="end" opacity="0.85">saúde</text>
+          <!-- Symbol: 4 circles -->
+          <circle cx="15" cy="35" r="13" fill="url(#nv-grad)"/>
+          <circle cx="28" cy="15" r="13" fill="url(#nv-grad)"/>
+          <circle cx="41" cy="35" r="13" fill="url(#nv-grad)"/>
+          <circle cx="28" cy="55" r="13" fill="url(#nv-grad)"/>
+          <circle cx="28" cy="35" r="10" fill="white"/>
+          <!-- Satellites -->
+          <circle cx="4" cy="35" r="6" fill="url(#nv-green)"/>
+          <circle cx="28" cy="4" r="5" fill="url(#nv-top)"/>
+          <circle cx="28" cy="66" r="6.5" fill="url(#nv-bot)"/>
+          <!-- Text -->
+          <text x="60" y="42" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="32" font-weight="900" fill="currentColor" letter-spacing="-0.5">megatons</text>
+          <text x="205" y="58" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="16" font-weight="700" fill="currentColor" text-anchor="end" opacity="0.85">saúde</text>
         </svg>
       </a>
 
@@ -88,34 +94,37 @@
     <div class="container">
       <div class="hero__split">
         <div class="hero__text">
-          <svg class="hero__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 190" role="img" aria-label="Megatons Saúde">
+          <svg class="hero__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Megatons Saúde">
             <defs>
-              <linearGradient id="hr-rg" x1="0%" y1="50%" x2="100%" y2="50%">
-                <stop offset="0%"   stop-color="#4ACC80"/>
-                <stop offset="22%"  stop-color="#38C4A0"/>
-                <stop offset="58%"  stop-color="#4888CC"/>
+              <linearGradient id="hr-grad" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%" stop-color="#4ACC80"/>
+                <stop offset="25%" stop-color="#38C4A0"/>
+                <stop offset="65%" stop-color="#4888CC"/>
                 <stop offset="100%" stop-color="#5A58CC"/>
               </linearGradient>
-              <linearGradient id="hr-ts" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#7080DC"/><stop offset="100%" stop-color="#5050C8"/>
+              <linearGradient id="hr-green" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#5CC462"/>
+                <stop offset="100%" stop-color="#4AB855"/>
               </linearGradient>
-              <linearGradient id="hr-bs" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#4858D0"/><stop offset="100%" stop-color="#3838B4"/>
+              <linearGradient id="hr-top" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7080DC"/>
+                <stop offset="100%" stop-color="#5050C8"/>
               </linearGradient>
-              <mask id="hr-rm">
-                <circle cx="57" cy="92" r="35" fill="white"/>
-                <circle cx="92" cy="57" r="35" fill="white"/>
-                <circle cx="127" cy="92" r="35" fill="white"/>
-                <circle cx="92" cy="127" r="35" fill="white"/>
-                <circle cx="92" cy="92" r="27" fill="black"/>
-              </mask>
+              <linearGradient id="hr-bot" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4858D0"/>
+                <stop offset="100%" stop-color="#3838B4"/>
+              </linearGradient>
             </defs>
-            <rect x="0" y="0" width="184" height="184" fill="url(#hr-rg)" mask="url(#hr-rm)"/>
-            <circle cx="20" cy="92" r="20" fill="#5CC462"/>
-            <circle cx="92" cy="20" r="18" fill="url(#hr-ts)"/>
-            <circle cx="92" cy="164" r="22" fill="url(#hr-bs)"/>
-            <text x="183" y="118" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="78" font-weight="900" fill="white" letter-spacing="-1">megatons</text>
-            <text x="558" y="160" font-family="'Nunito','Arial Rounded MT Bold',Arial,sans-serif" font-size="41" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="end">saúde</text>
+            <!-- Symbol: 4 circles -->
+            <circle cx="55" cy="100" r="38" fill="url(#hr-grad)"/>
+            <circle cx="100" cy="55" r="38" fill="url(#hr-grad)"/>
+            <circle cx="145" cy="100" r="38" fill="url(#hr-grad)"/>
+            <circle cx="100" cy="145" r="38" fill="url(#hr-grad)"/>
+            <circle cx="100" cy="100" r="28" fill="white"/>
+            <!-- Satellites -->
+            <circle cx="15" cy="100" r="22" fill="url(#hr-green)"/>
+            <circle cx="100" cy="15" r="20" fill="url(#hr-top)"/>
+            <circle cx="100" cy="185" r="24" fill="url(#hr-bot)"/>
           </svg>
           <h1 class="hero__title">Saúde com Qualidade<br />e Confiança</h1>
           <p class="hero__subtitle">
